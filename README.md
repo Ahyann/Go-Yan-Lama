@@ -1,8 +1,10 @@
-# Go-Yan 
+# Go-Yan v1
+
+> **Versi 1 (arsip).** Ini salinan beku Go-Yan sebelum desainnya diganti ke gaya konsol retro Spider-Man. Isinya sama dengan tag `v1-desain-lama` (26 Oktober 2026), dikerjakan sejak 2 Agustus 2026. Versi terbaru ada di repo [Go-Yan](https://github.com/Ahyann/Go-Yan) dan tidak diubah lagi di sini.
 
 **Aplikasi ojek pribadi** buat nganter-jemput sepupu saya ke kampus dan kantor. Ada dua peran (Ojek dan Penumpang), GPS live dua arah, dan tema gelap bergaya Spider-Man. Saya bangun dari nol buat belajar frontend.
 
-🔗 **Live demo:** [go-yan.vercel.app](https://go-yan.vercel.app)
+🔗 **Versi terbaru:** [Go-Yan](https://github.com/Ahyann/Go-Yan). Demo langsung di [go-yan.vercel.app](https://go-yan.vercel.app) menjalankan versi terbaru, **bukan** versi 1 ini.
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)
@@ -10,6 +12,12 @@
 ![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?logo=leaflet&logoColor=white)
 
 ---
+
+## Tentang versi ini
+
+- **Statusnya beku.** Tidak ada fitur atau perbaikan baru di repo ini; perubahan lanjutan dikerjakan di repo Go-Yan.
+- **Satu-satunya tambahan setelah dibekukan:** file `.gitignore` (`node_modules`, `dist`, `.env`) supaya kunci tidak ikut terkirim tak sengaja.
+- **Backend-nya masih milik saya.** Menjalankannya butuh proyek Firebase dan kunci MapTiler sendiri (lihat bagian di bawah), dan aturan Firestore/RTDB harus kamu atur sendiri.
 
 ## Kenapa proyek ini dibuat
 
@@ -52,8 +60,8 @@ Ini bukan clone Gojek. Saya dan sepupu saya beneran pakai app ini tiap minggu bu
 ## Menjalankan secara lokal
 
 ```bash
-git clone https://github.com/Ahyann/Go-Yan.git
-cd Go-Yan
+git clone https://github.com/Ahyann/Go-Yan-v1.git
+cd Go-Yan-v1
 npm install
 ```
 
@@ -74,7 +82,9 @@ VITE_MAPTILER_KEY=
 npm run dev
 ```
 
-## Roadmap
+## Roadmap (saat versi 1 dibekukan)
+
+Daftar di bawah adalah rencana yang tercatat waktu versi 1 dibekukan. Sebagian mungkin sudah dikerjakan di versi terbaru; di repo ini tidak akan dikerjakan.
 
 ### Fitur yang direncanain
 
